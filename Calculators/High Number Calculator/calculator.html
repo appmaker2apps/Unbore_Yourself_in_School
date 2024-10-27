@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enhanced Infinite Calculator</title>
+    <title>Almost Infinite Calculator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,11 +19,11 @@
             font-weight: bold;
         }
     </style>
-    <!-- Include BigNumber.js from CDN -->
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/9.1.1/bignumber.min.js"></script>
 </head>
 <body>
-    <h1>Enhanced Infinite Calculator</h1>
+    <h1>Almost Infinite Calculator</h1>
     <label for="calculationInput">Enter calculation (use scientific notation e.g., 1e10 or 1ee10):</label><br>
     <input type="text" id="calculationInput" placeholder="e.g., 5 + 2ee2"><br>
 
@@ -37,16 +37,16 @@
             let result;
 
             try {
-                // Normalize the input to handle 'ee' as scientific notation
+                
                 const normalizedInput = input.replace(/ee/g, 'e'); // Replace 'ee' with 'e'
 
-                // Split the normalized input into parts for calculation
+               
                 const parts = normalizedInput.match(/([\d.e-]+|[\+\-\*\/])/g);
                 if (!parts) {
                     throw new Error('Invalid input');
                 }
 
-                // Initialize BigNumber
+              
                 let total = new BigNumber(parts[0]);
 
                 for (let i = 1; i < parts.length; i += 2) {
@@ -69,7 +69,7 @@
                     }
                 }
 
-                // Format the result in scientific notation
+              
                 if (total) {
                     result = total.toExponential(6); // Display result in scientific notation with 6 decimal places
                 }
