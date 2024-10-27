@@ -1,5 +1,5 @@
 * Ethan Jayden Jenson get back to work.
-* Open the game you want to run by double clicking the index.html file to play the game you want
+* To open something double clicking the index.html/ the only .html file to run the software you want
 * Join my school d i s c o r d https://discord.gg/TeCSpkvTAw 
 * ALL MADE BY Skidkid420/FurtiveThomas
 
