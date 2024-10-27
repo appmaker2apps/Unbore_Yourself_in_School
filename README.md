@@ -1,18 +1,19 @@
-* Ethan Jayden Jenson and Coleman Corn get back to work.
-* open the game you want an run the index.html to play it
-* join my school d i s c o r d https://discord.gg/TeCSpkvTAw 
+* Ethan Jayden Jenson get back to work.
+* Open the game you want to run by double clicking the index.html file to play the game you want
+* Join my school d i s c o r d https://discord.gg/TeCSpkvTAw 
 * ALL MADE BY Skidkid420/FurtiveThomas
 
-* games I stole
+* Games I stole
 https://github.com/quinnsalt/GeometryDash-Unblocked
 
-*software used
-https://schellingb.github.io/LoveWebBuilder/package 
-python
+* Software used
+https://schellingb.github.io/LoveWebBuilder/package (hint hint)
 html5
-github
-java script
 css
+java script
+github
+
+
 
 
 

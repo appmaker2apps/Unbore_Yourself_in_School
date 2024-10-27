@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Browser and YouTube by Skibkid420</title>
+    <style>
+        html {
+            font-family: 'Nunito', sans-serif;
+            color: white;
+            background-color: rgb(20, 20, 20);
+        }
+        body {
+            text-align: center;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            color: black; /* Change text color to black for readability */
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        iframe {
+            width: 1000px; /* Fixed width */
+            height: 563px; /* Fixed height */
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(20,20,20);
+        }
+        a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QR0J225RDB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QR0J225RDB');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Minimal Browser</h1>
+        <p>Enter a website URL to open:</p>
+        <input type="text" id="urlInput" placeholder="https://example.com">
+        <button onclick="openWebsite()">Open Website</button>
+
+        <div id="instructions" class="center">
+            <h1>YouTube</h1>
+            <h3>Insert YouTube Link:</h3>
+            <input id="url" type="text" placeholder="" required>
+            <button id="submit" class="submit-button">Watch</button>
+        </div>
+        <br>
+        <div id="video-holder-holder">
+            <div id="video-holder" class="center" style="display:none;">
+                <hr style="display: none;">
+                <iframe id="video" src="" frameborder="0" scrolling="yes" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const base = "https://www.youtube-nocookie.com/embed/";
+        const end = "?wmode=transparent&amp;iv_load_policy=3&amp;autoplay=0&amp;html5=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=0&amp;theme=light";   
+        const strip_timestamps = /\?t=\d+/;
+        var submit = document.getElementById('submit');
+        var url = document.getElementById('url');
+        var video_holder;
+        var video_holder_holder = document.getElementById('video-holder-holder');
+        var link;
+        let id;
+
+        submit.onclick = () => {
+            if(document.getElementById('instructions')) {
+                document.getElementById('instructions').remove();
+            }
+            link = url.value;
+            id = link.replace(strip_timestamps, "");
+            id = id.split("&");
+            id = id[0].substr(id[0].length - 11, 11);
+
+            video_holder = document.getElementById('video-holder').cloneNode(true);
+            video_holder.style.display = 'block';
+            video_holder.children[1].src = base + id + end;
+            video_holder_holder.appendChild(video_holder);
+        };
+
+        function openWebsite() {
+            let urlInput = document.getElementById('urlInput').value;
+            if (!urlInput.startsWith('http://') && !urlInput.startsWith('https://')) {
+                urlInput = 'https://' + urlInput;
+            }
+            window.open(urlInput, '_blank');
+        }
+    </script>
+</body>
+</html>
