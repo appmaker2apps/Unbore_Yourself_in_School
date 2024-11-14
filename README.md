@@ -1,6 +1,6 @@
 * Ethan Jayden Jenson get back to work.
-* To open something double clicking the index.html/ the only .html file to run the software you want
-* Join my school d i s c o r d https://discord.gg/TeCSpkvTAw 
+* To open something double clicking the index.html or the only .html file to run the software you want
+* Join my school discord https://discord.gg/TeCSpkvTAw 
 * ALL MADE BY Skidkid420/FurtiveThomas
 
 * Games I stole
