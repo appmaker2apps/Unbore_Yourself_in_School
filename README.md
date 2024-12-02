@@ -1,16 +1,12 @@
-* Ethan Jayden Jenson get back to work.
 * To open something double clicking the index.html or the only .html file to run the software you want
-* Join my school discord https://discord.gg/TeCSpkvTAw 
-* ALL MADE BY Skidkid420/FurtiveThomas
+* Join my school chat https://discord.gg/TeCSpkvTAw 
+* ALL MADE BY Skidkid420/FurtiveThomas/Kry
 
 * Games I stole
 https://github.com/quinnsalt/GeometryDash-Unblocked
 
 * Software used
-html5
-css
-java script
-github
+html5, css, java script, and github (duh)
 
 
 
