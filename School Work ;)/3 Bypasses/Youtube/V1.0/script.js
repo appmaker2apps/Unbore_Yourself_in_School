@@ -1,5 +1,3 @@
-//https://www.youtube.com/watch?v=dQw4w9WgXcQ
-//https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?wmode=transparent&amp;iv_load_policy=3&amp;autoplay=1&amp;html5=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=0&amp;theme=light
 const base = "https://www.youtube-nocookie.com/embed/";
 const end = "?wmode=transparent&amp;iv_load_policy=3&amp;autoplay=0&amp;html5=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=0&amp;theme=light";
 const strip_timestamps = /\?t=\d+/;
