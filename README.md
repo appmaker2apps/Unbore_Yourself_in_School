@@ -2,9 +2,6 @@
 * Join my school chat https://discord.gg/TeCSpkvTAw 
 * ALL MADE BY Skidkid420/FurtiveThomas/Kry
 
-* Games I stole
-https://github.com/quinnsalt/GeometryDash-Unblocked
-
 * Software used
 html5, css, java script
 
