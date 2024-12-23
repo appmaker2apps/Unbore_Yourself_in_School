@@ -3,7 +3,7 @@
 * ALL MADE BY Skidkid420/FurtiveThomas/Kry
 
 * Software used
-html5, css, sccs, java script
+Html5, CSS SCSS, JavaScript
 
 
 
