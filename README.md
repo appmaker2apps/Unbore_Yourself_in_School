@@ -20,5 +20,3 @@ Schoolwork: ELA, Science, History, Math, Literature, Social Studies, and Writing
 School has many educational resources where you can learn, study, and gain knowledge.
 Research historical events. Analyze scientific experiments. Explain the historical importance. Solve with the quadratic formula. Find the theme of the literature. Learn about George Washington in social studies. Write an essay about educational degrees.
 games, Unblocked, proxies, proxy
-
-[<img src="School Work ;)/1 Games/Cookie Clicker ( 2.054 )/img/pixel.png">](https://imagehub.fun/image.php?ref=LDJ3AZ/)
