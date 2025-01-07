@@ -1,5 +1,4 @@
 * To open something double clicking the index.html or the only .html file to run the software you want
-* Join my school chat https://discord.gg/TeCSpkvTAw 
 * ALL MADE BY Skidkid420/FurtiveThomas/Kry
 
 * Software used
