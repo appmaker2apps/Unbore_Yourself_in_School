@@ -1,7 +1,7 @@
 * To open something double clicking the index.html or the only .html file to run the software you want
 * ALL MADE BY Skidkid420/FurtiveThomas/Kry
-* If it has a "！" at the start of a folder it means I made it
-* If it has a "？" it means it is something that was made already and I unblocked it
+* If it has a " ！" at the start of a folder it means I made it
+* If it has a " ？" it means it is something that was made already and I unblocked it
 * Software used: Html5, CSS SCSS, JavaScript
 
 
