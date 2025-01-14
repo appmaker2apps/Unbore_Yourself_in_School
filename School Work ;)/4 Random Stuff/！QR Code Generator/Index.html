@@ -68,8 +68,8 @@
             const input = document.getElementById('textInput');
             const text = input.value;
 
-            if (text.length > 50) {
-                alert("Text exceeds the maximum limit of 50 characters.");
+            if (text.length > 100) {
+                alert("Text exceeds the maximum limit of 100 characters.");
                 return;
             }
 
@@ -94,7 +94,7 @@
                e
                 const ctx = canvas.getContext('2d');
                 const img = new Image();
-                img.src = 'IMG1.png'; 
+                img.src = 'logo.png'; 
                 img.onload = function () {
                     const size = 50; 
                     const x = (canvas.width - size) / 2;
@@ -104,7 +104,7 @@
                 };
             } catch (err) {
                 console.error(err);
-                alert("Failed to generate QR code.");
+                
             }
         }
 
