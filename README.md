@@ -3,7 +3,7 @@
 * If something has a " ！" at the start of a it means I made it
 * If something has a " ？" it means it is something that was made already and I unblocked it
 * Software used: Html5, CSS SCSS, JavaScript
-*this is my youtube:https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99
+* this is my youtube: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99
 
 
 
