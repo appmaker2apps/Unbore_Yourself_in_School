@@ -3,6 +3,7 @@
 * If something has a " ！" at the start of a it means I made said thing.
 * If something has a " ？" it means it is something that was made already and I unblocked said thing.
 * Software used: Html5, CSS SCSS, JavaScript
+* put games you want in the issues tab and i will try my best to add them
 * this is my Youtube: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99
 
 
