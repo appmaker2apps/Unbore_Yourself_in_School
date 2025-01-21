@@ -14,3 +14,5 @@ v
 
 
 Unblocked, proxies, proxy, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, unblocked games free 76 classroom 6x google sites, google sites, google site,
+
+<meta name="description" content="Unblocked, proxies, proxy, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, unblocked games free 76 classroom 6x google sites, google sites, google site,">
