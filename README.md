@@ -3,8 +3,8 @@
 * If something has a " ！" at the start of a it means I made said thing.
 * If something has a " ？" it means it is something that was made already and I unblocked said thing.
 * Software used: Html5, CSS SCSS, JavaScript
-* put games you want in the issues tab and i will try my best to add them
-* this is my Youtube: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99
+* Put games you want in the issues tab and i will try my best to add them
+* This is my Youtube: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99
 
 
 
@@ -16,4 +16,4 @@ v
 
 Unblocked, proxies, proxy, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, unblocked games free 76 classroom 6x google sites, google sites, google site,
 
-<meta name="description" content="Unblocked, proxies, proxy, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, unblocked games free 76 classroom 6x google sites, google sites, google site,">
+<meta name="description" content="Unblocked, proxies, proxy, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, unblocked games free 76 classroom 6x google sites, google sites, google site, rammerhead, nettleweb, Coleman has a 3inch SWC">
