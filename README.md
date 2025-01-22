@@ -6,7 +6,7 @@
 * Put games you want in the issues tab and I will try my best to add them
 * This is my Youtube: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99
 
-
+![](https://komarev.com/ghpvc/?username=furtivethomas&style=plastic)
 
 
 
