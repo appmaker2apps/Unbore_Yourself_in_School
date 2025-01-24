@@ -21,6 +21,7 @@ To start playing Unblocked Games Github, you can download the apps/games from th
 ## Instructions
 Download the html files from the link above.
 Launch the app/game on your computer.
+Star And Fork This repository
 ### Further Information
 
 * To open something double clicking the index.html or the only .html file to run the software you want
