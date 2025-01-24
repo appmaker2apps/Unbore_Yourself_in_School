@@ -8,20 +8,21 @@
  <meta name="<h1>^ Don't Mind Stupid Keywords</h1>"> 
 
 # Unblocked Games Github 
-Welcome to the Unblocked Games Github repository! Here you can access and enjoy a variety of games and apps in environments where sites are typically restricted.
+* Welcome to the Unblocked Games Github repository! Here you can access and enjoy a variety of games and apps in environments where sites are typically restricted.
 
 ## Repository Content
-In this repository, you will find a downloadable Html file that provides access to unblocked games and apps.
+* In this repository, you will find a downloadable Html file that provides access to unblocked games and apps.
 
 ## Usage
-To start playing Unblocked Games Github, you can download the apps/games from the link provided below.
+* To start playing Unblocked Games Github, you can download the apps/games from the link provided below.
  
 ### [DOWNLOAD HERE](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/archive/refs/heads/main.zip)
 
 ## Instructions
-Download the html files from the link above.
-Launch the app/game on your computer.
-Star And Fork This repository
+* Download the html files from the link above.
+* Launch the app/game on your computer.
+* Star And Fork This repository
+* Share to your friends
 ### Further Information
 
 * To open something double clicking the index.html or the only .html file to run the software you want
