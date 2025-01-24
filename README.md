@@ -25,7 +25,7 @@ Launch the app/game on your computer.
 * ALL made/unblocked BY Skidkid420/FurtiveThomas/Kry
 * If something has a " ！" at the start of a it means I made said thing.
 * If something has a " ？" it means it is something that was made already and I unblocked said thing.
-* Put games you want in the [issues tab](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/issues/new?template=add-.md)/[discussions tab](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/discussions/4)and I will try my best to add them
+* Put games you want in the [issues tab](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/issues/new?template=add-.md)/[discussions tab](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/discussions/4) and I will try my best to add them
 * My Youtube: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99 
 
 
