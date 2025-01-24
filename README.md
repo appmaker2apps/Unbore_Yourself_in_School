@@ -29,6 +29,9 @@ Launch the app/game on your computer.
 * My Youtube: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99 
 
 
-![](https://komarev.com/ghpvc/?username=furtivethomas&style=plastic)
+![](https://img.shields.io/github/followers/furtivethomas?label=Followers&style=social)
+
+
+
 
 
