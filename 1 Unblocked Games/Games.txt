@@ -2,17 +2,17 @@ https://github.com/FurtiveThomas/Unbore_Yourself_in_School
 Games:
 2048
 9007199254740992
+BOP IT
 Binding Of Isaac
 BitBurner
 Block Blast
-BOP IT
+CSGO Clicker
 Call Of Duty World At War
 Chess
 Chrome Dino Game
 Connect 4
 Conway’s Game of Life
-Cookie Clicker (2.054)
-CSGO Clicker
+Cookie Clicker 2.054
 Doge Miner
 Doodle Jump
 Doom 1
@@ -26,6 +26,7 @@ GrindCraft
 Happy Wheels
 Idle Dice
 Infinite Craft
+Learn To Fly 2
 Mario 64
 Minecraft
 More Ore
