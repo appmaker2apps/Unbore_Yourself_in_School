@@ -32,10 +32,18 @@
 * If something has a " % " and some numbers that is the chance of said thing being unblocked. 
 * Put games you want in the [issues tab](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/issues/new?template=add-.md)/[discussions tab](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/discussions/4) and I will try my best to add them
 * My Youtube if there is any doubters: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99 
-### Partners
+## Partners
+
+### UnblockZone
+
 * [Unblocked Zone Website](https://unblockzone.github.io/)
 * [Unblocked Zone Discord](https://discord.gg/XRkQyY2Hhy)
 
+### Pickle
+* [Discord](https://discord.gg/8wxSWySa)
+
+### Your Spot Here
+* Contact me on discord: skibkid420
 
 
 
