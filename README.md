@@ -5,6 +5,7 @@
 <meta name="unblocked games search terms" content="goguardianbypass, securly-bypass Unblocked, Discord, Youtube, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, keyword, unblocked games free 76 classroom 6x google sites, google sites, google site, rammerhead, nettleweb, chromebook-hack,">
 
 ![40+ unblocked games unblocked cookie clicker discord youtube unblocker](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/blob/main/1%20Unblocked%20Games/%EF%BC%9FCookie%20Clicker%202.054%20(100%25)/Cookie%20Clicker/img/pixel.png)
+# READ THIS
 # Unblocked Games Github 
 * Welcome to my Unblocked Games Github repository! Here you can access and enjoy a variety of games and apps in school/work where sites are restricted.
 * In this repository, you will find a downloadable Html file that provides access to unblocked games and apps.
