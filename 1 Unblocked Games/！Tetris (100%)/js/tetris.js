@@ -3,9 +3,9 @@ var board = [];
 var lose;
 var interval;
 var intervalRender;
-var current; // current moving shape
-var currentX, currentY; // position of current shape
-var freezed; // is current shape settled on the board?
+var current; 
+var currentX, currentY; 
+var freezed; 
 var shapes = [
     [ 1, 1, 1, 1 ],
     [ 1, 1, 1, 0,
@@ -25,11 +25,11 @@ var colors = [
     'cyan', 'orange', 'blue', 'yellow', 'red', 'green', 'purple'
 ];
 
-// creates a new 4x4 shape in global variable 'current'
-// 4x4 so as to cover the size when the shape is rotated
+
+
 function newShape() {
     var id = Math.floor( Math.random() * shapes.length );
-    var shape = shapes[ id ]; // maintain id for color filling
+    var shape = shapes[ id ]; 
 
     current = [];
     for ( var y = 0; y < 4; ++y ) {
@@ -45,14 +45,14 @@ function newShape() {
         }
     }
     
-    // new shape starts to move
+    
     freezed = false;
-    // position where the shape will evolve
+  
     currentX = 5;
     currentY = 0;
 }
 
-// clears the board
+
 function init() {
     for ( var y = 0; y < ROWS; ++y ) {
         board[ y ] = [];
@@ -62,12 +62,12 @@ function init() {
     }
 }
 
-// keep the element moving down, creating new shapes and clearing lines
+
 function tick() {
     if ( valid( 0, 1 ) ) {
         ++currentY;
     }
-    // if the element settled
+  
     else {
         freeze();
         valid(0, 1);
@@ -80,7 +80,7 @@ function tick() {
     }
 }
 
-// stop shape at its position and fix it to board
+
 function freeze() {
     for ( var y = 0; y < 4; ++y ) {
         for ( var x = 0; x < 4; ++x ) {
@@ -92,7 +92,6 @@ function freeze() {
     freezed = true;
 }
 
-// returns rotates the rotated shape 'current' perpendicularly anticlockwise
 function rotate( current ) {
     var newCurrent = [];
     for ( var y = 0; y < 4; ++y ) {
@@ -105,7 +104,7 @@ function rotate( current ) {
     return newCurrent;
 }
 
-// check if any lines are filled and clear them
+
 function clearLines() {
     for ( var y = ROWS - 1; y >= 0; --y ) {
         var rowFilled = true;
@@ -159,7 +158,7 @@ function keyPress( key ) {
     }
 }
 
-// checks if the resulting position of current shape will be feasible
+
 function valid( offsetX, offsetY, newCurrent ) {
     offsetX = offsetX || 0;
     offsetY = offsetY || 0;
@@ -177,7 +176,7 @@ function valid( offsetX, offsetY, newCurrent ) {
                   || y + offsetY >= ROWS
                   || x + offsetX >= COLS ) {
                     if (offsetY == 1 && freezed) {
-                        lose = true; // lose if the current shape is settled at the top most row
+                        lose = true; 
                         document.getElementById('playbutton').disabled = false;
                     } 
                     return false;

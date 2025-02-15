@@ -25,14 +25,14 @@
         const canvas = document.getElementById("pongCanvas");
         const ctx = canvas.getContext("2d");
 
-        // Ball properties
+       
         const ballRadius = 10;
         let x = canvas.width / 2;
         let y = canvas.height / 2;
         let dx = 4;
         let dy = -4;
 
-        // Paddle properties
+  
         const paddleWidth = 10;
         const paddleHeight = 100;
         const player = {
@@ -48,11 +48,9 @@
             speed: 5
         };
 
-        // Score
         let playerScore = 0;
         let computerScore = 0;
 
-        // Controls
         const keys = {
             ArrowUp: false,
             ArrowDown: false
@@ -100,7 +98,7 @@
         }
 
         function update() {
-            // Move player paddle
+           
             if(keys["ArrowUp"] && player.y > 0) {
                 player.y -= player.speed;
             }
@@ -108,7 +106,6 @@
                 player.y += player.speed;
             }
 
-            // Move computer paddle
             if(computer.y + paddleHeight/2 < y) {
                 computer.y += computer.speed;
             }
@@ -116,26 +113,24 @@
                 computer.y -= computer.speed;
             }
 
-            // Ball movement
             x += dx;
             y += dy;
 
-            // Collision with top and bottom
             if(y + dy < ballRadius || y + dy > canvas.height - ballRadius) {
                 dy = -dy;
             }
 
-            // Collision with player paddle
+            
             if(x + dx < player.x + paddleWidth && y > player.y && y < player.y + paddleHeight) {
                 dx = -dx;
             }
 
-            // Collision with computer paddle
+           
             if(x + dx > computer.x - paddleWidth && y > computer.y && y < computer.y + paddleHeight) {
                 dx = -dx;
             }
 
-            // Scoring
+            
             if(x + dx < 0) {
                 computerScore++;
                 resetBall();
