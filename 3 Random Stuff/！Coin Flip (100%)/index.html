@@ -95,8 +95,7 @@
             const resultDiv = document.getElementById('result');
             coin.style.display = 'block';
             coin.style.animation = 'flip 0.6s forwards';
-            
-            // Clear previous result
+
             resultDiv.textContent = '';
 
             setTimeout(() => {
@@ -104,16 +103,14 @@
                 resultDiv.textContent = result;
                 coin.style.animation = ''; // Reset animation
                 coin.style.display = 'none';
-
-                // Animate result text color change
+=
                 resultDiv.style.color = result === 'Heads' ? '#ffcc00' : '#00ccff';
                 resultDiv.style.transform = 'scale(1.5)';
 
-                // Reset the scaling effect after animation
                 setTimeout(() => {
                     resultDiv.style.transform = 'scale(1)';
                 }, 500);
-            }, 600); // Wait for the flip animation to finish
+            }, 600); 
         }
     </script>
 </body>
