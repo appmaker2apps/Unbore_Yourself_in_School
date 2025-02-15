@@ -43,6 +43,9 @@
 ### Pickle
 * [Discord](https://discord.gg/8wxSWySa)
 
+### Viper
+* [Discord](https://discord.gg/n5PWCTT7ZE)
+
 ### Your Spot Here
 * Contact me on discord: skibkid420
 
