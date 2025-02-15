@@ -11,7 +11,7 @@
 * In this repository, you will find a downloadable Html file that provides access to unblocked games and apps.
 
 ## Usage
-* ### [DOWNLOAD HERE](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/archive/refs/heads/main.zip)
+* [DOWNLOAD HERE](https://github.com/FurtiveThomas/Unbore_Yourself_in_School/archive/refs/heads/main.zip)
 * To start playing Unblocked Games Github, you can download the apps/games from the link provided below.
 
 ## Instructions
