@@ -40,9 +40,6 @@
 * [Unblocked Zone Website](https://unblockzone.github.io/)
 * [Unblocked Zone Discord](https://discord.gg/XRkQyY2Hhy)
 
-### Pickle
-* [Discord](hhttps://discord.gg/suKC96tceD)
-
 ### Viper
 * [Discord](https://discord.gg/n5PWCTT7ZE)
 
