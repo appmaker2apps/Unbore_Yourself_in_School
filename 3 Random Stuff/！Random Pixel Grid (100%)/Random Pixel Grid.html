@@ -64,7 +64,7 @@
         function generateTile() {
             const tile = document.getElementById('tile');
             const mode = document.getElementById('mode').value;
-            tile.innerHTML = ''; // Clear existing pixels
+            tile.innerHTML = ''; 
 
             const colorFunction = {
                 random: generateRandomColor,
@@ -73,7 +73,7 @@
                 rgb: generateRGB
             }[mode];
 
-            for (let i = 0; i < 250 * 250; i++) { // 250x250 = 62,500 pixels
+            for (let i = 0; i < 250 * 250; i++) { 
                 const pixel = document.createElement('div');
                 pixel.className = 'pixel';
                 pixel.style.backgroundColor = colorFunction();
@@ -107,7 +107,7 @@
             });
         }
 
-        // Initial tile generation
+       
         generateTile();
     </script>
 </body>
