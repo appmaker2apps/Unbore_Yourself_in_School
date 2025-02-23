@@ -37,9 +37,6 @@
 * My Youtube if there is any doubters: https://www.youtube.com/@%CE%99%CE%9E%CE%9E%CE%99 
 
 ## Partners
-### UnblockZone
-* [Unblocked Zone Website](https://unblockzone.github.io/)
-* [Unblocked Zone Discord](https://discord.gg/XRkQyY2Hhy)
 
 ### Viper
 * [Discord](https://discord.gg/n5PWCTT7ZE)
