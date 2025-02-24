@@ -1,0 +1,566 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="goguardianbypass, securly-bypass Unblocked, Discord, Youtube, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, unblocked games free 76 classroom 6x google sites, google sites, google site, rammerhead, nettleweb, chromebook-hack">
+  <meta name="keywords" content="goguardianbypass, securly-bypass Unblocked, Discord, Youtube, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, unblocked games free 76 classroom 6x google sites, google sites, google site, rammerhead, nettleweb, chromebook-hack">
+  <meta name="unblocked games search terms" content="goguardianbypass, securly-bypass Unblocked, Discord, Youtube, unblocker, ubg365, unblocked games 76, classroom 6x, unblocked games wtf, unblocked games, cookie clicker, school work, keyword, school fun, GitHub, coolmathgames, free download, apk, html, index.html, discord, youtube, videos, free, hacked, iframe, google snake, Minecraft, blockblast, block blast, Mario, smash carts, keyword, unblocked games free 76 classroom 6x google sites, google sites, google site, rammerhead, nettleweb, chromebook-hack">
+<title>UYIS</title>
+<link rel="icon" href="img/UBG.png" type="image/png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed">
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  background: #efefef;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+body {
+  color: #eee;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+header {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #444;
+  position: relative;
+  overflow: hidden;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+header h1:hover {
+  transform: scale(1.05);
+}
+header h1:hover {
+  transform: scale(1.05);
+opacity: 1.0 !important;
+}
+#info-btn {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  background: #e63946;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+.games-grid:has(.game-widget:hover) .game-widget:not(:hover) {
+  transform: scale(0.95);
+}
+.game-widget {
+  background: #1a1a1a;
+  padding: 10px;
+  border: 1px solid #333;
+  transition: transform 0.2s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.game-widget:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+.game-image {
+  width: 100%;
+  height: 150px;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.game-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.game-title {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+#widgetbot-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+  border: 0.125em solid #e63946;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.3s, transform 0.3s;
+  overflow: hidden;
+   z-index: 99999;
+
+}
+.drag-handle {
+  width: 100%;
+  height: 2em;
+  background: #e63946;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5em;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+  flex-shrink: 0;
+ z-index: 99999;
+}
+.minimize-btn {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  font-size: 1em;
+  flex-shrink: 0;
+ z-index: 99999;
+}
+widgetbot {
+  display: block;
+  flex-grow: 1;
+  width: 100%;
+  height: calc(100% - 2em);
+ z-index: 99999;
+}
+#resizer {
+  width: 15px;
+  height: 15px;
+  background: #e63946;
+  cursor: se-resize;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ z-index: 99999;
+}
+#reopen-widget {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+
+  color: #fff;
+  font-size: 12px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+ z-index: 99999;
+}
+
+#info-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+.modal-content {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+.close-btn {
+  cursor: pointer;
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+#proxy-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.splash {
+  font-size: 45px;
+  font-family: "Press Start 2P", serif;
+  color: #FFDE00;
+  position: absolute;
+  white-space: nowrap;
+  cursor: grab;
+  animation: shake 7s infinite;
+}
+#splash-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+@keyframes shake {
+  0% { transform: translate(0,0); }
+  10% { transform: translate(-2px,2px); }
+  20% { transform: translate(2px,-2px); }
+  30% { transform: translate(-2px,2px); }
+  40% { transform: translate(2px,-2px); }
+  50% { transform: translate(-2px,2px); }
+  60% { transform: translate(2px,-2px); }
+  70% { transform: translate(-2px,2px); }
+  80% { transform: translate(2px,-2px); }
+  90% { transform: translate(-2px,2px); }
+  100% { transform: translate(0,0); }
+}
+::selection {
+  background-color: transparent;
+  color: #000;
+}
+#volume-control {
+  margin: 10px;
+  color: #fff;
+}
+#play-btn, #off-btn {
+  cursor: pointer;
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 1px;
+}
+.settings-content {
+  padding: 20px;
+}
+.settings-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+</style>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+</script><style type="text/css" id="operaUserStyle"></style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style type="text/css">:root [href^="//mage98rquewz.com/"], :root [href^="//x4pollyxxpush.com/"], :root span[id^="ezoic-pub-ad-placeholder-"], :root ins.adsbygoogle[data-ad-slot], :root ins.adsbygoogle[data-ad-client], :root img[src^="https://s-img.adskeeper.com/"], :root guj-ad, :root gpt-ad, :root div[id^="zergnet-widget"], :root div[id^="vuukle-ad-"], :root div[id^="taboola-stream-"], :root div[id^="sticky_ad_"], :root div[id^="st"][style^="z-index: 999999999;"], :root div[id^="gpt_ad_"], :root div[id^="ezoic-pub-ad-"], :root div[id^="dfp-ad-"], :root div[id^="crt-"][style], :root div[id^="adspot-"], :root div[id^="adrotate_widgets-"], :root ps-connatix-module, :root div[id^="ad_position_"], :root div[id^="ad-div-"], :root div[id*="ScriptRoot"], :root div[id*="MarketGid"], :root div[data-id-advertdfpconf], :root div[data-dfp-id], :root hl-adsense, :root div[data-contentexchange-widget], :root div[data-alias="300x250 Ad 2"], :root div[data-adzone], :root div[data-adunit-path], :root div[data-adname], :root div[data-ad-targeting], :root div[data-ad-placeholder], :root div[aria-label="Ads"], :root display-ads, :root display-ad-component, :root atf-ad-slot, :root aside[id^="adrotate_widgets-"], :root ark-top-ad, :root amp-fx-flying-carpet, :root amp-embed[type="taboola"], :root amp-connatix-player, :root amp-ad-custom, :root amp-ad, :root div[id^="google_dfp_"], :root ad-slot, :root ad-shield-ads, :root a[style="width:100%;height:100%;z-index:10000000000000000;position:absolute;top:0;left:0;"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="https://xbet-4.com/"], :root div[id^="ad-position-"], :root a[href^="https://www.toprevenuegate.com/"], :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root a[href^="https://www.onlineusershielder.com/"], :root a[href^="https://financeads.net/tc.php?"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="https://www.infowarsstore.com/"] > img, :root a[href^="https://www.highperformancecpmgate.com/"], :root a[href^="https://www.highcpmrevenuenetwork.com/"], :root a[href^="https://lnkxt.bannerator.com/"], :root a[href^="https://www.geekbuying.com/dynamic-ads/"], :root a[href^="https://www.financeads.net/tc.php?"], :root [href^="https://www.herbanomic.com/"] > img, :root a[href^="https://maymooth-stopic.com/"], :root a[href^="https://www.dql2clk.com/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="https://www.dating-finder.com/signup/?ai_d="], :root a[href^="https://explore-site.com/"], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root a[href^="https://www.adxsrve.com/"], :root [data-template-type="nativead"], :root a[href^="https://www.endorico.com/Smartlink/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://voluum.prom-xcams.com/"], :root a[href^="https://twinrdsrv.com/"], :root a[href^="https://trk.nfl-online-streams.club/"], :root a[href^="https://tracking.avapartner.com/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://track.afcpatrk.com/"], :root a[href^="https://torguard.net/aff.php"] > img, :root [data-identity="adhesive-ad"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://tatrck.com/"], :root a[href^="https://click.candyoffers.com/"], :root [href^="https://zstacklife.com/"] img, :root a[href^="https://t.aslnk.link/"], :root a[href^="https://t.adating.link/"], :root a[href^="https://t.acam.link/"], :root a[href*="//daichoho.com/"], :root a[href^="https://syndication.optimizesrv.com/"], :root a[href^="https://go.trackitalltheway.com/"], :root [href^="https://track.fiverr.com/visit/"] > img, :root a[href^="https://syndication.exoclick.com/"], :root a[href^="https://syndication.dynsrvtbg.com/"], :root div[data-alias="300x250 Ad 1"], :root a[href^="https://syndicate.contentsserved.com/"], :root a[href^="https://svb-analytics.trackerrr.com/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href^="https://slkmis.com/"], :root bottomadblock, :root a[href^="https://s.zlinkd.com/"], :root a[href^="https://s.zlink3.com/"], :root a[href^="https://www.mrskin.com/account/"], :root a[href^="https://s.optzsrv.com/"], :root a[href^="https://s.ma3ion.com/"], :root #kt_player > div[style$="display: block;"][style*="inset: 0px;"], :root a[href^="https://quotationfirearmrevision.com/"], :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://ak.oalsauwy.net/"], :root a[href^="https://softwa.cfd/"], :root a[href^="https://play1ad.shop/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root a[href^="https://www.dating-finder.com/?ai_d="], :root a[href^="https://serve.awmdelivery.com/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root app-ad, :root [href^="https://ap.octopuspop.com/click/"] > img, :root a[href^="https://postback1win.com/"], :root a[href^="https://mmwebhandler.aff-online.com/"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root a[href^="https://pb-track.com/"], :root a[href^="https://pb-front.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://streamate.com/landing/click/"], :root div[class^="Adstyled__AdWrapper-"], :root a[href^="https://startgaming.net/tienda/" i], :root a[href^="https://osfultrbriolenai.info/"], :root a[href^="https://upsups.click/"], :root a[href^="https://ndt5.net/"], :root a[href^="http://eighteenderived.com/"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root a[href^="https://m.do.co/c/"] > img, :root .nya-slot[style], :root a[href^="https://a.bestcontentweb.top/"], :root a[href^="https://lobimax.com/"], :root a[href^="https://lead1.pl/"], :root a[href^="https://landing.brazzersnetwork.com/"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href^="https://kiksajex.com/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://snowdayonline.xyz/"], :root a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="https://jaxofuna.com/"], :root a[href^="https://italarizege.xyz/"], :root a[href^="https://iqbroker.com/"][href*="?aff="], :root a[href^="https://hot-growngames.life/"], :root a[href^="https://helmethomicidal.com/"], :root a[href^="https://golinks.work/"], :root a[href^="https://go.xxxvjmp.com/"], :root [class^="tile-picker__CitrusBannerContainer-sc-"], :root a[href^="https://go.xxxiijmp.com"], :root a[href^="https://go.xtbaffiliates.com/"], :root [data-role="tile-ads-module"], :root a[href^="https://go.xlviirdr.com"], :root a[href^="https://go.xlviiirdr.com"], :root a[href^="https://ismlks.com/"], :root [href^="https://www.mypillow.com/"] > img, :root a[href^="https://go.xlirdr.com"], :root [data-css-class="dfp-inarticle"], :root a[href^="https://l.hyenadata.com/"], :root a[href^="https://go.tmrjmp.com"], :root a[href^="https://zirdough.net/"], :root a[href^="https://s.deltraff.com/"], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://lijavaxa.com/"], :root a[href^="https://go.goaserv.com/"], :root a[href^="https://t.hrtye.com/"], :root a[href^="https://go.etoro.com/"] > img, :root a[href^="https://go.dmzjmp.com"], :root a[href^="https://www.bang.com/?aff="], :root #mgb-container > #mgb, :root a[href^="https://go.admjmp.com"], :root a[href^="https://ak.stikroltiltoowi.net/"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root a[href^="https://www.adskeeper.com"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root [href^="https://clicks.affstrack.com/"] > img, :root a[href^="https://ak.hauchiwu.com/"], :root a[href^="https://engine.phn.doublepimp.com/"], :root a[href^="https://engine.blueistheneworanges.com/"], :root a[href^="https://drumskilxoa.click/"], :root a[href^="https://dl-protect.net/"], :root a[href^="https://rixofa.com/"], :root #ads[style^="position: absolute; z-index: 30; width: 100%; height"], :root a[href^="https://disobediencecalculatormaiden.com/"], :root a[href*=".foxqck.com/"], :root a[href^="https://ctosrd.com/"], :root a[href^="https://clixtrac.com/"], :root [href^="https://noqreport.com/"] > img, :root a[href^="https://clicks.pipaffiliates.com/"], :root app-advertisement, :root a[href^="https://getmatchedlocally.com/"], :root a[href^="https://clickins.slixa.com/"], :root a[href^="https://datewhisper.life/"], :root a[href^="https://get-link.xyz/"], :root a[href^="https://click.linksynergy.com/fs-bin/"] > img, :root a[href^="https://combodef.com/"], :root a[href^="https://click.hoolig.app/"], :root a[href^="https://track.totalav.com/"], :root a[href^="https://ctrdwm.com/"], :root img[src^="https://images.purevpnaffiliates.com"], :root a[href^="https://porntubemate.com/"], :root a[href^="https://clickadilla.com/"], :root a[href^="https://click.dtiserv2.com/"], :root a[href^="https://go.xlvirdr.com"], :root a[href^="http://www.iyalc.com/"], :root a[href^="https://claring-loccelkin.com/"], :root a[href^="https://bongacams2.com/track?"], :root a[href^="https://t.ajrkm1.com/"], :root [href="https://masstortfinancing.com"] img, :root a[href^="https://bongacams10.com/track?"], :root a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], :root a[href^="https://bngpt.com/"], :root a[href^="https://black77854.com/"], :root a[href^="https://banners.livepartners.com/"], :root a[href^="https://myclick-2.com/"], :root a[href^="https://sexynearme.com/"], :root a[href^="https://baipahanoop.net/"], :root a[href^="http://revolvemockerycopper.com/"], :root a[href^="https://awptjmp.com/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="https://ausoafab.net/"], :root a[href^="https://activate-game.com/"], :root .scroll-fixable.rail-right > .deals-rail, :root [data-wpas-zoneid], :root a[href^="https://a2.adform.net/"], :root a[href^="https://auesk.cfd/"], :root a[href^="https://ak.psaltauw.net/"], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="https://bc.game/"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="https://adultfriendfinder.com/go/"], :root a[href^="https://ads.planetwin365affiliate.com/"], :root a[href^="https://ads.leovegas.com/"], :root a[href^="https://a.candyai.love/"], :root a[href^="https://playnano.online/offerwalls/?ref="], :root a[href^="https://a.adtng.com/"], :root .banner-img > .pbl, :root [data-m-ad-id], :root a[href^="https://a-ads.com/"], :root div[id^="rc-widget-"], :root a[href^="http://eslp34af.click/"], :root a[href^="https://turnstileunavailablesite.com/"], :root a[href^="https://chaturbate.com/in/?"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href*="&maxads="], :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root a[href^="https://1betandgonow.com/"], :root a[href^="https://eergortu.net/"], :root div[id^="optidigital-adslot"], :root a[href^="https://123-stream.org/"], :root a[href^="http://www.friendlyduck.com/AF_"], :root a[href^="https://allhost.shop/aff.php?"], :root [data-dynamic-ads], :root a[href^="http://vnte9urn.click/"], :root a[href^="https://getvideoz.click/"], :root a[href^="http://troopsassistedstupidity.com/"], :root a[href^="http://trk.globwo.online/"], :root a[href^="https://random-affiliate.atimaze.com/"], :root a-ad, :root a[href^="https://offhandpump.com/"], :root a[href^="http://stickingrepute.com/"], :root #slashboxes > .deals-rail, :root a[href^="http://premonitioninventdisagree.com/"], :root a[href^="http://naggingirresponsible.com/"], :root a[href^="https://in.rabbtrk.com/"], :root a[href^="http://www.h4trck.com/"], :root a[href^="https://81ac.xyz/"], :root a[href^="http://guestblackmail.com/"], :root a[href^="http://cam4com.go2cloud.org/aff_c?"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root [href^="https://www.mypatriotsupply.com/"] > img, :root a[href^="https://trk.softonixs.xyz/"], :root a[href^="http://dragnag.com/"], :root a[href^="http://dragfault.com/"], :root [data-advadstrackid], :root a[href^="http://muzzlematrix.com/"], :root a[href^="https://track.adform.net/"], :root a[href^="http://avthelkp.net/"], :root a[href^="https://a.medfoodhome.com/"], :root a[href^="https://engine.flixtrial.com/"], :root [data-type="ad-vertical"], :root [data-taboola-options], :root a[href^="http://annulmentequitycereals.com/"], :root a[href^="//startgaming.net/tienda/" i], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://s.cant3am.com/"], :root a[href^="//s.st1net.com/splash.php"], :root a[href^="https://join.virtualtaboo.com/track/"], :root [id^="ad_sky"], :root a[href^="http://coefficienttolerategravel.com/"], :root a[href^="https://a.medfoodsafety.com/"], :root a[href^="//go.eabids.com/"], :root a[href^="//ejitsirdosha.net/"], :root a[href^=" https://www.friendlyduck.com/AF_"], :root a[href*="/jump/next.php?r="], :root [href^="https://ilovemyfreedoms.com/landing-"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root .\[\&_\.gdprAdTransparencyCogWheelButton\]\:\!pjra-z-\[5\], :root [href^="http://clicks.totemcash.com/"], :root a[href^="https://ad.zanox.com/ppc/"] > img, :root a[href^="https://lone-pack.com/"], :root [data-d-ad-id], :root a[href*=".engine.adglare.net/"], :root a[href^="https://t.ajrkm3.com/"], :root [href^="https://aads.com/campaigns/"], :root a[href^="//stighoazon.com/"], :root [href^="https://www.profitablegatecpm.com/"], :root div[id^="lazyad-"], :root a[href^="http://com-1.pro/"], :root a[href*=".cfm?domain="][href*="&fp="], :root [data-ad-name], :root a[href^="https://loboclick.com/"], :root a[data-url^="https://vulpix.bet/?ref="], :root a[href^="https://ab.advertiserurl.com/aff/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://go.xlivrdr.com"], :root [onclick^="location.href='https://1337x.vpnonly.site/"], :root [name^="google_ads_iframe"], :root [id^="section-ad-banner"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href*="//jjgirls.com/sex/Chaturbate"], :root [id^="ad-wrap-"], :root [href^="https://zone.gotrackier.com/"], :root a[href^="http://sarcasmadvisor.com/"], :root [href^="https://www.restoro.com/"], :root [href^="https://www.targetingpartner.com/"], :root .section-subheader > .section-hotel-prices-header, :root [href^="https://www.hostg.xyz/"] > img, :root a[href^="http://adultfriendfinder.com/go/"], :root a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="], :root a[href^="https://tour.mrskin.com/"], :root [href^="https://www.brighteonstore.com/products/"] img, :root citrus-ad-wrapper, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="https://go.grinsbest.com/"], :root a[href^="https://vo2.qrlsx.com/"], :root [href^="https://www.avantlink.com/click.php"] img, :root [href^="https://wct.link/click?"], :root div[data-adunit], :root app-large-ad, :root [href^="https://turtlebids.irauctions.com/"] img, :root div[id^="div-ads-"], :root [href^="https://rapidgator.net/article/premium/ref/"], :root [href^="https://join.girlsoutwest.com/"], :root a[href^="https://track.aftrk3.com/"], :root [href^="https://join3.bannedsextapes.com"], :root a[href^="https://bodelen.com/"], :root a[href*=".g2afse.com/"], :root div[id^="adngin-"], :root [data-rc-widget], :root span[data-ez-ph-id], :root [href^="https://track.aftrk1.com/"], :root [href^="https://join.playboyplus.com/track/"], :root a[href^="https://go.xxxijmp.com"], :root [href^="https://istlnkcl.com/"], :root a[href^="https://tm-offers.gamingadult.com/"], :root [href^="https://charmingdatings.life/"], :root [href^="https://glersakr.com/"], :root a[href^="https://a.bestcontentfood.top/"], :root [href^="https://cpa.10kfreesilver.com/"], :root [data-id^="div-gpt-ad"], :root a[href^="https://tracker.loropartners.com/"], :root [href^="https://awbbjmp.com/"], :root div[ow-ad-unit-wrapper], :root a[data-href^="http://ads.trafficjunky.net/"], :root a[href^="http://partners.etoro.com/"], :root a[href^="https://www.friendlyduck.com/AF_"], :root [href^="https://ad1.adfarm1.adition.com/"], :root a[href^="https://bngprm.com/"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[href^="https://go.strpjmp.com/"], :root a[href^="https://go.bushheel.com/"], :root a[href^="https://ctjdwm.com/"], :root a[href^="https://camfapr.com/landing/click/"], :root div[data-ad-wrapper], :root .gnt_em_vp_c[data-g-s="vp_dk"], :root [href="//sexcams.plus/"], :root [href^="http://www.mypillow.com/"] > img, :root a[href^="https://promerycergerful.com/"], :root #kt_player > a[target="_blank"], :root a[href^="http://bongacams.com/track?"], :root [href^="http://mypillow.com/"] > img, :root [href="https://ourgoldguy.com/contact/"] img, :root a[href^="https://wittered-mainging.com/"], :root #teaser3[style="width: 100%;text-align: center;display: scroll;position:fixed;bottom: 0;margin: 0 auto;z-index: 103;"], :root [href="https://www.masstortfinancing.com/"] > img, :root .ob_container .item-container-obpd, :root [id^="div-gpt-ad"], :root a[href^="https://go.rmhfrtnd.com/"], :root [href="https://jdrucker.com/gold"] > img, :root [href^="https://go.xlrdr.com"], :root [data-testid^="taboola-"], :root a[href^="https://track.1234sd123.com/"], :root zeus-ad, :root [data-testid="prism-ad-wrapper"], :root [href^="https://ad.admitad.com/"], :root [href^="https://mypillow.com/"] > img, :root [data-testid="ad_testID"], :root [href^="https://antiagingbed.com/discount/"] > img, :root a[href*=".adsrv.eacdn.com/"], :root [href^="https://optimizedelite.com/"] > img, :root [data-name="adaptiveConstructorAd"], :root a[href^="https://go.cmtaffiliates.com/"], :root [data-testid="adBanner-wrapper"], :root [href^="https://mylead.global/stl/"] > img, :root [href^="https://mypatriotsupply.com/"] > img, :root a[href^="https://go.hpyjmp.com"], :root iframe[scrolling="no"][sandbox*="allow-popups allow-modals"][style^="width: 100%; height: 100%; border: none;"], :root [href^="https://mystore.com/"] > img, :root a[href^="https://witnessjacket.com/"], :root [data-mobile-ad-id], :root [class^="amp-ad-"], :root a[href^="http://handgripvegetationhols.com/"], :root a[href^="https://go.bbrdbr.com"], :root a[href^="https://fc.lc/ref/"], :root [data-adshim], :root topadblock, :root a[href^="//s.zlinkd.com/"], :root #teaser1[style^="width:autopx;"], :root [href^="https://www.cloudways.com/en/?id"], :root [data-asg-ins], :root a[href^="https://gamingadlt.com/?offer="], :root [data-desktop-ad-id], :root a[href^="https://www.liquidfire.mobi/"], :root .grid > .container > #aside-promotion, :root DFP-AD, :root [id^="ad_slider"], :root [data-adbridg-ad-class], :root #teaser3[style^="width:autopx;"], :root [data-adblockkey], :root [data-block-type="ad"], :root [data-ad-width], :root [onclick*="content.ad/"], :root [data-ad-manager-id], :root AMP-AD, :root [data-ad-cls], :root [data-ez-name], :root a[href^="https://go.mnaspm.com/"], :root a[href^="https://service.bv-aff-trx.com/"], :root a[href^="https://6-partner.com/"], :root [class^="s2nPlayer"], :root a[href^="https://traffdaq.com/"], :root [data-testid="commercial-label-taboola"], :root [class^="div-gpt-ad"], :root a[href^="http://tc.tradetracker.net/"] > img, :root a[href^="https://www8.smartadserver.com/"], :root a[href^="https://pb-imc.com/"], :root [href^="https://affiliate.fastcomet.com/"] > img, :root [class^="adDisplay-module"], :root [data-freestar-ad][id], :root AD-SLOT, :root a[href^="https://www.googleadservices.com/pagead/aclk?"] > img, :root [data-ad-module], :root a[href^="https://go.skinstrip.net"][href*="?campaignId="], :root #teaser2[style^="width:autopx;"], :root a[href^="https://ngineet.cfd/"], :root [data-revive-zoneid], :root a[href^="https://losingoldfry.com/"], :root div[id^="div-gpt-"], :root a[href^="https://gml-grp.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href^="https://cam4com.go2cloud.org/"], :root a[href^="http://li.blogtrottr.com/click?"], :root a[href^="https://t.ajump1.com/"], :root a[href^="https://go.xxxjmp.com"], :root #leader-companion > a[href], :root #target.pk-page-ready #pk-status-message { display: none !important; }</style><style>@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');</style></head><body><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4PHTHC5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+
+
+<audio id="startupSound" src="snd/partner_bg.mp3"></audio>
+<header>
+  <h1>Christian's Bigback Bypass V2</h1>
+  <button id="info-btn">Settings&amp;Themes</button>
+</header>
+<main>
+  <div class="games-grid"><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/chrome-dino'"><div class="game-image"><img class="game-icon" src="img/dino.png" alt="Chrome Dino Game icon"></div><div class="game-title">Chrome Dino Game</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Cookie-Clicker-2.054/Cookie-Clicker'"><div class="game-image"><img class="game-icon" src="img/cookie.png" alt="Cookie Clicker icon"></div><div class="game-title">Cookie Clicker</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Connect-4/connect4.html'"><div class="game-image"><img class="game-icon" src="img/4.png" alt="Connect 4 icon"></div><div class="game-title">Connect 4</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/CSGO-Clicker/index.html'"><div class="game-image"><img class="game-icon" src="img/CSGO.png" alt="CSGO Clicker icon"></div><div class="game-title">CSGO Clicker</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Doge-Miner/index.html'"><div class="game-image"><img class="game-icon" src="img/doge.png" alt="Doge Miner icon"></div><div class="game-title">Doge Miner</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Doodle-Jump/index.html'"><div class="game-image"><img class="game-icon" src="img/doodle.png" alt="Doodle Jump icon"></div><div class="game-title">Doodle Jump</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Tetris/index.html'"><div class="game-image"><img class="game-icon" src="img/tet.png" alt="Tetris icon"></div><div class="game-title">Tetris</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Worlds-Hardest-Game/index.html'"><div class="game-image"><img class="game-icon" src="img/TWHG.png" alt="Worlds Hardest Game icon"></div><div class="game-title">Worlds Hardest Game</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/XX142-B2.exe/index.html'"><div class="game-image"><img class="game-icon" src="img/arrow.png" alt="XX142-B2.exe icon"></div><div class="game-title">XX142-B2.exe</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/You-Are-Jeff-Bezos/index.html'"><div class="game-image"><img class="game-icon" src="img/YAJB.png" alt="You Are Jeff Bezos icon"></div><div class="game-title">You Are Jeff Bezos</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/9007199254740992/index.html'"><div class="game-image"><img class="game-icon" src="img/90.png" alt="9007199254740992 icon"></div><div class="game-title">9007199254740992</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/2048/index.html'"><div class="game-image"><img class="game-icon" src="img/20.png" alt="2048 icon"></div><div class="game-title">2048</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Solitaire/index.html'"><div class="game-image"><img class="game-icon" src="img/cards.png" alt="Solitaire icon"></div><div class="game-title">Solitaire</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Pong/Pong.html'"><div class="game-image"><img class="game-icon" src="img/pong.png" alt="Pong icon"></div><div class="game-title">Pong</div></div><div class="game-widget" onclick="window.location.href='2-Blocking-Bypasses/Unblocked-Discord/Unblocked-Discord-V2.0/Unblocked-Discord.html'"><div class="game-image"><img class="game-icon" src="img/UBG.png" alt="Discord icon"></div><div class="game-title">Discord</div></div><div class="game-widget" onclick="window.location.href='1-Unblocked-Games/Wordle/index.html'"><div class="game-image"><img class="game-icon" src="img/word.png" alt="Wordle icon"></div><div class="game-title">Wordle</div></div></div>
+</main>
+<div id="widgetbot-container">
+  <div class="drag-handle" id="drag-handle">Drag<span class="minimize-btn" onclick="minimizeWidget()">–</span></div>
+  <widgetbot server="1286367955378114601" channel="1297982806722351164" style="display: inline-block; overflow: hidden; background-color: rgb(54, 57, 62); border-radius: 7px; vertical-align: top;"><iframe title="WidgetBot Discord chat embed" allow="clipboard-write; fullscreen" src="https://e.widgetbot.io/channels/1286367955378114601/1297982806722351164?api=b59453c7-bad4-4822-b5bb-3df97a0ef842" style="border: none; width: 100%; height: 100%;"></iframe></widgetbot>
+  <div id="resizer"></div>
+</div>
+<div id="reopen-widget" onmousedown="startDrag(event)" onclick="reopenWidget()"><img src="img/discord.png" style="width:119px;height:96px"></div>
+
+<div id="info-modal">
+  <div class="modal-content">
+    <h3>Pages</h3>
+  <p>Partners: <a href="/partners">HERE</a></p>
+    <h3>Music</h3>
+    <div class="settings-content">
+      <label for="play-btn">Play/Pause:</label>
+      <button id="play-btn">Play/Pause</button>
+      <label for="volume-slider">Volume:</label>
+      <input type="range" id="volume-slider" min="0" max="100" value="99">
+      <label for="off-btn">Stop Music:</label>
+      <button id="off-btn">Stop</button>
+    </div>
+    <button class="close-btn" id="close-info">Close</button>
+    <p>Open Music In New Tab <a href="snd/partner_bg.mp3">HERE</a></p>
+  <h3>Themes</h3>
+<p>Volume Bar:<a href="/g"> HERE</a></p>
+  <p>PS4:<a href="/theme1"> HERE</a></p>
+  <p> Xbox 360:<a href="/theme2"> HERE</a></p>
+  </div>
+</div>
+<div id="splash-container"><div class="splash" style="font-family: &quot;Press Start 2P&quot;, cursive; left: 383.326px; top: 960.575px;">unblockzone is skidded</div></div>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+var audio = document.getElementById('startupSound');
+var playButton = document.getElementById('play-btn');
+var offButton = document.getElementById('off-btn');
+var volumeSlider = document.getElementById('volume-slider');
+playButton.addEventListener('click', function(){
+if(audio.paused){audio.play();}else{audio.pause();}
+});
+offButton.addEventListener('click', function(){
+audio.pause();audio.currentTime = 0;
+});
+volumeSlider.addEventListener('input', function(){
+audio.volume = volumeSlider.value / 100;
+});
+document.addEventListener("contextmenu", function(e){e.preventDefault();});
+var grid = document.querySelector(".games-grid");
+var games = [
+{ title: "Chrome Dino Game", link: "1-Unblocked-Games/chrome-dino", icon: "img/dino.png" },
+{ title: "Cookie Clicker", link: "1-Unblocked-Games/Cookie-Clicker-2.054/Cookie-Clicker", icon: "img/cookie.png" },
+{ title: "Connect 4", link: "1-Unblocked-Games/Connect-4/connect4.html", icon: "img/4.png" },
+{ title: "CSGO Clicker", link: "1-Unblocked-Games/CSGO-Clicker/index.html", icon: "img/CSGO.png" },
+{ title: "Doge Miner", link: "1-Unblocked-Games/Doge-Miner/index.html", icon: "img/doge.png" },
+{ title: "Doodle Jump", link: "1-Unblocked-Games/Doodle-Jump/index.html", icon: "img/doodle.png" },
+{ title: "Tetris", link: "1-Unblocked-Games/Tetris/index.html", icon: "img/tet.png" },
+{ title: "Worlds Hardest Game", link: "1-Unblocked-Games/Worlds-Hardest-Game/index.html", icon: "img/TWHG.png" },
+{ title: "XX142-B2.exe", link: "1-Unblocked-Games/XX142-B2.exe/index.html", icon: "img/arrow.png" },
+{ title: "You Are Jeff Bezos", link: "1-Unblocked-Games/You-Are-Jeff-Bezos/index.html", icon: "img/YAJB.png" },
+{ title: "9007199254740992", link: "1-Unblocked-Games/9007199254740992/index.html", icon: "img/90.png" },
+{ title: "2048", link: "1-Unblocked-Games/2048/index.html", icon: "img/20.png" },
+{ title: "Solitaire", link: "1-Unblocked-Games/Solitaire/index.html", icon: "img/cards.png" },
+{ title: "Pong", link: "1-Unblocked-Games/Pong/Pong.html", icon: "img/pong.png" },
+{ title: "Discord", link: "2-Blocking-Bypasses/Unblocked-Discord/Unblocked-Discord-V2.0/Unblocked-Discord.html", icon: "img/UBG.png" },
+{ title: "Wordle", link: "1-Unblocked-Games/Wordle/index.html", icon: "img/word.png" }
+];
+games.forEach(function(game){
+var card = document.createElement("div");
+card.className = "game-widget";
+card.setAttribute("onclick", "window.location.href='" + game.link + "'");
+var image = document.createElement("div");
+image.className = "game-image";
+var icon = document.createElement("img");
+icon.className = "game-icon";
+icon.src = game.icon;
+icon.alt = game.title + " icon";
+image.appendChild(icon);
+var title = document.createElement("div");
+title.className = "game-title";
+title.textContent = game.title;
+card.appendChild(image);
+card.appendChild(title);
+grid.appendChild(card);
+});
+var widgetContainer = document.getElementById("widgetbot-container"),
+dragHandle = document.getElementById("drag-handle"),
+reopenWidgetBtn = document.getElementById("reopen-widget");
+dragHandle.addEventListener("mousedown", function(e){
+e.preventDefault();
+var rect = widgetContainer.getBoundingClientRect();
+var offsetX = e.clientX - rect.left;
+var offsetY = e.clientY - rect.top;
+function onMouseMove(e){
+widgetContainer.style.left = (e.clientX - offsetX) + "px";
+widgetContainer.style.top = (e.clientY - offsetY) + "px";
+}
+function onMouseUp(){
+document.removeEventListener("mousemove", onMouseMove);
+document.removeEventListener("mouseup", onMouseUp);
+}
+document.addEventListener("mousemove", onMouseMove);
+document.addEventListener("mouseup", onMouseUp);
+});
+window.minimizeWidget = function(){
+widgetContainer.style.display = "none";
+reopenWidgetBtn.style.display = "flex";
+};
+window.reopenWidget = function(){
+widgetContainer.style.display = "flex";
+widgetContainer.style.top = "0";
+widgetContainer.style.left = "0";
+reopenWidgetBtn.style.display = "none";
+};
+window.startDrag = function(e){
+var elem = reopenWidgetBtn;
+var shiftX = e.clientX - elem.getBoundingClientRect().left;
+var shiftY = e.clientY - elem.getBoundingClientRect().top;
+function moveAt(pageX, pageY){
+elem.style.left = (pageX - shiftX) + "px";
+elem.style.top = (pageY - shiftY) + "px";
+}
+function onMouseMove(e){
+moveAt(e.pageX, e.pageY);
+}
+document.addEventListener("mousemove", onMouseMove);
+elem.onmouseup = function(){
+document.removeEventListener("mousemove", onMouseMove);
+elem.onmouseup = null;
+};
+};
+reopenWidgetBtn.ondragstart = function(){ return false; };
+var resizer = document.getElementById("resizer");
+resizer.addEventListener("mousedown", function(e){
+e.preventDefault();
+function Resize(e){
+var containerRect = widgetContainer.getBoundingClientRect();
+widgetContainer.style.width = (e.clientX - containerRect.left) + "px";
+widgetContainer.style.height = (e.clientY - containerRect.top) + "px";
+}
+function stopResize(){
+window.removeEventListener("mousemove", Resize);
+window.removeEventListener("mouseup", stopResize);
+}
+window.addEventListener("mousemove", Resize);
+window.addEventListener("mouseup", stopResize);
+});
+var infoBtn = document.getElementById("info-btn");
+var infoModal = document.getElementById("info-modal");
+var closeInfo = document.getElementById("close-info");
+infoBtn.addEventListener("click", function(){
+infoModal.style.display = "flex";
+});
+closeInfo.addEventListener("click", function(){
+infoModal.style.display = "none";
+});
+infoModal.addEventListener("click", function(e){
+if(e.target === infoModal){ infoModal.style.display = "none"; }
+});
+var gridY = 35, gridX = 200, gridYheight = 1, rad = 40;
+var scene = new THREE.Scene();
+var cam = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000);
+var renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
+var shapes = [];
+function setup(){
+var step = (2 * Math.PI) / gridX;
+var angle = 0;
+for(var j = 0; j < gridY; j++){
+shapes[j] = [];
+for(var i = 0; i < gridX; i++){
+var x = rad * Math.sin(angle);
+var z = rad * Math.cos(angle);
+var y = j * gridYheight + gridYheight / gridX;
+var rot = (i * (360 / gridX)) * (Math.PI / 180);
+var geo = new THREE.PlaneGeometry(1, 0.2);
+var mat = new THREE.MeshBasicMaterial({color:0xff0000});
+var shape = new THREE.Mesh(geo, mat);
+shape.material.side = THREE.BackSide;
+shape.position.set(x, y, z);
+shape.rotation.y = rot;
+scene.add(shape);
+shapes[j].push(shape);
+angle += step;
+}
+}
+}
+var p1 = 0, p3 = 0;
+var aSin = [];
+var as = Math.random(300) * 5;
+var fd = Math.random(300) * 10;
+var as1 = Math.random(200) * 50;
+var fd1 = Math.random(300) * 50;
+var ps = Math.random(200) * 20 - 10;
+var ps2 = Math.random(200) * 40 - 20;
+function setupPlasma(){
+var iCount = 512;
+while(iCount--){
+var rVal = (iCount * 0.703125) * 0.0174532;
+aSin[iCount] = Math.sin(rVal) * 1024;
+}
+drawPlasma();
+}
+function drawPlasma(){
+var t3 = p3, t4 = p3;
+for(var i = gridX - 1; i >= 0; i--){
+var t1 = p1 + 5, t2 = p1 + 3;
+t3 &= 511;
+t4 &= 511;
+for(var j = gridY - 1; j >= 0; j--){
+t1 &= 511;
+t2 &= 511;
+var xVal = aSin[t1] + aSin[t2] + aSin[t3] + aSin[t4];
+shapes[j][i].material.color.r = xVal / as / 255;
+shapes[j][i].material.color.g = xVal / fd / 255;
+shapes[j][i].material.color.b = xVal / ps / 255;
+t1 += 5;
+t2 += 3;
+}
+t4 += as1;
+t3 += fd1;
+}
+p1 += ps;
+p3 += ps2;
+}
+function render(){
+requestAnimationFrame(render);
+cam.rotation.y += 0.001;
+cam.rotation.z += 0.0001;
+drawPlasma();
+renderer.render(scene, cam);
+}
+cam.position.y = (gridY * gridYheight) / 2;
+setup();
+setupPlasma();
+render();
+var style = document.createElement("style");
+style.innerHTML = "@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');";
+document.head.appendChild(style);
+var splashContainer = document.getElementById("splash-container");
+var splashes = ["Hello World", "paptata ewwww", "", "I hate pickle", "Vapor is cool", "Minecraft", "Check Info&Proxy", "i have proxy aids", "unblockzone is skidded", "braybray is a skid", "proxy?", "skibkid420 on discord", "i ❤ notepad++", "Love you mom", "balatro ❤", "men kissing", "Void Network ❤", "I HAVE A BOMB", "GLS V3", "ERROR NO SPLASH TEXT", "KRY ❤", "❤", "i have aids", ":(", "coleman has fat aids","all my homies hate unblockzone"];
+var text = splashes[Math.floor(Math.random() * splashes.length)];
+var d = document.createElement("div");
+d.className = "splash";
+d.style.fontFamily = "'Press Start 2P', cursive";
+d.textContent = text;
+splashContainer.appendChild(d);
+d.innerText = text;
+var x = Math.random() * (window.innerWidth - 500);
+var y = window.innerHeight - 950 + Math.random() * 950;
+d.style.left = x + "px";
+d.style.top = y + "px";
+splashContainer.appendChild(d);
+d.addEventListener("mousedown", function(e){
+d.style.cursor = "grabbing";
+var ox = e.clientX - d.offsetLeft;
+var oy = e.clientY - d.offsetTop;
+function move(e){
+d.style.left = (e.clientX - ox) + "px";
+d.style.top = (e.clientY - oy) + "px";
+}
+function up(){
+document.removeEventListener("mousemove", move);
+document.removeEventListener("mouseup", up);
+d.style.cursor = "grab";
+}
+document.addEventListener("mousemove", move);
+document.addEventListener("mouseup", up);
+});
+});
+</script>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<canvas width="400" height="535" style="display: block; width: 400px; height: 535px;"></canvas></body></html>
